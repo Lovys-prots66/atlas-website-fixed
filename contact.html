@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contactez Atlas Évasion pour réserver votre voyage au Maroc.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<h1>Contactez-nous</h1>
+
+<img src="images/banniere-contact.jpg" alt="le minaret de la Koutoubia">
+
+<div id="menu">
+<p><a href="index.html" target="_blank">Accueil</a> | <a href="destinations.html" target="_blank">Destinations</a> | <a href="galerie.html" target="_blank">Galerie</a> | <a href="tarifs.html" target="_blank">Tarifs</a> | <a href="contact.html" target="_blank">Contact</a></p>
+</div>
+
+<ul>
+    <li>Atlas Evasion - 12, avenue Mohammed V - Marrakech</li>
+    <li>
+        Tél : 05 24 00 00 00
+    </li>
+    <li>
+        Email : <a href="mailto//contact@atlas-evasion.example">contact@atlas-evasion.example</a>
+    </li>
+</ul>
+
+<h2>Formulaire de réservation</h2>
+
+<form method="post">
+    <div id="form-item">
+        <label for="nom">Nom<label>
+        <input type="text" name="nom" id="nom" placeholder="Votre nom"  autocomplete="nom" />
+    </div>
+    <div id="form-item">
+        <label for="prenom">Prénom<label>
+        <input type="text" name="prenom" id="prenom" placeholder="Votre prenom"  autocomplete="prenom" />
+    </div>
+    <div id="form-item">
+        <label for="email">Email<label>
+        <input type="email" name="email" placeholder="Email"  required autocomplete="email" />
+    </div>
+
+    <div id="form-item">
+        <label for="tel">Téléphone<label>
+        <input type="tel" name="tel" id="tel" placeholder="Votre Téléphone" autocomplete="tel" />
+    </div>
+
+    <div id="form-item">
+        <label for="cin">N° CIN :</label>
+        <input type="number" name="cin" id="cin" placeholder="Votre CIN" autocomplete="cin" />
+    </div>
+
+    <div id="form-item">
+        <label for="date_depart">Date de départ :</label> 
+        <input type="date" name="date_depart" id="date_depart" placeholder="jj/mm/aaaa" />
+    </div>
+
+    <div id="form-item">
+        <label for="sexe">Sexe :</label>
+        <input type="radio" name="sexe" id="sexe" value="H" /> Homme
+        <input type="radio" name="sexe" id="sexe" value="F" /> Femme
+    </div>
+
+    <div id="form-item">
+        <label for="destination">Destination :</label>
+        <select name="destination" id="destination">
+            <option value="Marrakech">Marrakech</option>
+            <option value="Merzouga">Merzouga</option>
+            <option value="Chefchaouen">Chefchaouen</option>
+            <option value="Essaouira">Essaouira</option>
+        </select>
+    </div>
+
+    <div id="form-item">
+        <label for="passport">Copie du passeport :</label>
+        <input type="file" name="passeport" id="passport" />
+    </div>
+
+    <div id="form-item">
+        <label for="message">Votre message: </label>
+        <textarea name="message" placeholder="Votre message" cols="100" rows="60" ></textarea>
+    </div>
+
+    <div id="form-item">
+        <button type="submit"><img src="images/icone-envoyer.png" width="40" height="40"></button>
+    </div>
+</form>
+
+<div id="Newsletter">
+    <h2>Newsletter</h2>
+    <form method="post">
+        <label>Inscrivez vous a notre newsletter pour recevoir nos promo !!! 
+            <input type="text" name="mail_news"> <input type="submit" src="images/btn-ok.png" width="80" height="32" />
+        </label>
+    </form>
+</div>
+
+<div>
+    <h2>Nous trouver</h2>
+    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-8.02%2C31.62%2C-7.98%2C31.64&amp;layer=mapnik" width="600" height="400"></iframe>
+</div>
+
+<span>Pour toutes questions, <a href="tarifs.html" target="_blank">cliquez ici</a>. Book now !</span>
+
+<footer>
+    <span>© 2019 Atlas Evasion - Tout droits réservés</span>
+    <span>Site fictif réalisé pour un exercice pédagogique.</span>
+</footer>
+
+</body>
+</html>
